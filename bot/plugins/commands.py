@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '★ᴊᴏɪɴ ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ★', url="https://t.me/searchit00"
+                                    '★ᴊᴏɪɴ ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ★', url="https://t.me/CM_Chats"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'ᴊᴏɪɴ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ🧚‍♀️', url="https://t.me/searchit00"
+                                    'ᴊᴏɪɴ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ🧚‍♀️', url="https://t.me/CM_Chats"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👼ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ👼', url="https://t.me/searchit00"
+                                    '👼ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ👼', url="https://t.me/CM_Chats"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('ɢʀᴏᴜᴘ 💬', url='https://t.me/searchit_group'),
-        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 🎭', url ='https://t.me/searchit00')
+        InlineKeyboardButton('ɢʀᴏᴜᴘ 💬', url='https://t.me/CM_Chats'),
+        InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ 🎭', url ='https://t.me/CinematoosNew')
     ],[
-        InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ 👼', url='https://t.me/Elonmusk_010')
+        InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ 👼', url='https://t.me/Pablo_NK')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
